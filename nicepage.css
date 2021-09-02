@@ -34417,10 +34417,7 @@ a.u-link.u-text-hover-grey-90:hover {
 /*end-variables sitestylecss*/
 .u-header {
   background-image: none;
-}
-
-.u-header .u-sheet-1 {
-  min-height: 70px;
+  min-height: 86px;
 }
 
 .u-header .u-text-1 {
@@ -34428,28 +34425,28 @@ a.u-link.u-text-hover-grey-90:hover {
   font-weight: 400;
   font-family: Montserrat, sans-serif;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
-  margin: -24px 1069px 16px -71px;
+  margin: 0 calc(((100% - 1140px) / 2) + 1122px) 0 0;
 }
 @media (max-width: 1199px) {
   .u-header .u-text-1 {
-    margin-right: 969px;
+    margin-right: calc(((100% - 940px) / 2) + 922px);
   }
 }
 @media (max-width: 991px) {
   .u-header .u-text-1 {
-    margin-right: 859px;
+    margin-right: calc(((100% - 720px) / 2) + 702px);
   }
 }
 @media (max-width: 767px) {
   .u-header .u-text-1 {
     font-size: 3.75rem;
-    margin-right: 769px;
+    margin-right: calc(((100% - 540px) / 2) + 522px);
   }
 }
 @media (max-width: 575px) {
   .u-header .u-text-1 {
     font-size: 3rem;
-    margin-right: 669px;
+    margin-right: calc(((100% - 340px) / 2) + 322px);
   }
 }
 .u-footer {
